@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context="com.appsolute.rami.bbcsports.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType = "centerCrop"
+        android:src="@drawable/bbc"/>
+
+<ProgressBar
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/simpleProgressBar"
+    app:layout_constraintBottom_toTopOf="@+id/txtCharg"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/txtCharg"
+        android:layout_height="wrap_content"
+        android:text="Chargement des données..."
+        android:textColor="@color/white"
+        android:textSize="10sp"
+
+        app:layout_constraintBottom_toTopOf="@+id/imglove"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:padding="16dp"/>
+
+    <TextView
+        android:id="@+id/MADEWith"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Made with"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.30000000"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintVertical_bias="0.80000000" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imglove"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.50000000"
+        android:src="@drawable/ic_heart_black_24dp"
+        />
+
+    <TextView
+        android:id="@+id/By"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For AppSolute"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+
+        app:layout_constraintVertical_bias="0.80000000" />
+
+
+
+
+</android.support.constraint.ConstraintLayout>

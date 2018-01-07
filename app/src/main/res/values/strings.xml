@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BBC Sports</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_home"> Journal </string>
+    <string name="title_favoirs">Mes Favoris</string>
+    <string name="title_more">Informations</string>
+    <string name="detail_favoris">Détails Favoris</string>
+    <string name="detail_home">Détail:</string>
+    <string name="facebook_app_id">194898354396930</string>
+    <string name="facebook_share_button"> SHARE ON FACEBOOK</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
