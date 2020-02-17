@@ -12,7 +12,7 @@ pool:
 steps:
 - task: Gradle@2
   inputs:
-    workingDirectory: '$(System.DefaultWorkingDirectory)/_UITestADP'
+    workingDirectory: '$(System.DefaultWorkingDirectory)/UITestADP'
     gradleWrapperFile: 'gradlew'
     gradleOptions: '-Xmx3072m'
     publishJUnitResults: false
