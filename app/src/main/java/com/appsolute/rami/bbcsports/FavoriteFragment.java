@@ -35,6 +35,8 @@ public class FavoriteFragment extends Fragment {
         return new FavoriteFragment();
     }
 
+    
+
 
 
     @Nullable
