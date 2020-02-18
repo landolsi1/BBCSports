@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
         Thread timerThread = new Thread(){
             public void run(){
                 try{

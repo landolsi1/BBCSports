@@ -67,7 +67,7 @@
         android:id="@+id/By"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="For AppSolute"
+        android:text="For Ineat"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         android:textColor="@android:color/white"
         android:textSize="14sp"
