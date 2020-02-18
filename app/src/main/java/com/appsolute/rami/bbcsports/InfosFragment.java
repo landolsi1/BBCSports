@@ -32,7 +32,7 @@ public class InfosFragment  extends Fragment {
         mTextMessagefav.setText("Ajout au favoris");
 
         TextView mTextMessageFbi = view.findViewById(R.id.fbi);
-        mTextMessageFbi.setText("Dans la rubrique Favoris l'appuie sur un element permet d'afficher ses détail. \n Un appuie long permet de supprimer l'élément en question. \n Une connexion est nécessaire sinon l'application se ferme automatiquement au bout de 5 seconde... \n  \n N.B:j'aurais pu rajouter la pushNotification et réaliser l'application sous iOS sauf que je n'ai pas de MacOS en ce moment.");
+        mTextMessageFbi.setText("Dans la rubrique Favoris l'appuie sur un element permet d'afficher ses détail. \n Un appuie long permet de supprimer l'élément en question. \n Une connexion est nécessaire sinon l'application se ferme automatiquement au bout de 5 seconde... \n ");
 
         TextView mTextMessageFb = view.findViewById(R.id.fb);
         mTextMessageFb.setText("Partage sur Facebook");
